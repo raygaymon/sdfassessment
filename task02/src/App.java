@@ -61,7 +61,6 @@ public class App {
 
                 if (!toRead.exists()) {
                     System.out.println("That text does not exist");
-                    toRead.createNewFile();
 
                 } else {
 
@@ -90,8 +89,6 @@ public class App {
                         }
                     }   
 
-                    System.out.println(freq.get("chicken"));
-
                     for (int i = 1; i < allTheWords.size(); i++) {
 
                         Nextword nw = new Nextword(allTheWords.get(i-1), allTheWords.get(i));
@@ -116,15 +113,11 @@ public class App {
                         }
 
                         else {
-                            
                             currentW = nextWord.get(wordPairList.get(j).getPrevWord());
                             freq.computeIfPresent(wordPairList.get(j).getPrevWord(), (key, value) -> value + 1);
-
                         }
 
                     }
-
-                    //System.out.println(nextWord.get("some"));
 
                     // to check output without getting a headache
                     FileWriter fw = new FileWriter("Output.txt");

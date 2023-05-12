@@ -43,7 +43,7 @@ public class Nextword {
         return "Nextword [prevWord=" + prevWord + ", currentWord=" + currentWord + "]";
     }
 
-    public static float findSize(Map <String, Float> m, List <String> s) {
+    public float findSize(Map <String, Float> m, List <String> s) {
 
         float result = 0f;
         for (String items : s) {
