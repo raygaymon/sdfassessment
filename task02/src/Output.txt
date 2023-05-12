@@ -1,0 +1,22 @@
+the: 
+   best 1.0
+chicken: 
+   and 0.5
+   is 0.25
+   cock 0.25
+like: 
+   chicken 1.0
+and: 
+   beef 1.0
+i: 
+   like 1.0
+beef: 
+   chicken 0.6666667
+   is 0.33333334
+is: 
+   the 0.5
+   cock 0.5
+best: 
+   chicken 1.0
+cock: 
+   chicken 1.0
